@@ -1,0 +1,136 @@
+body {
+	background: #EDEDED ;
+}
+	
+.main-container {
+	background-color: white;
+	margin-top: 120px;
+	padding: 40px;
+}
+
+#header {
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	padding: 60px;
+	font-weight: 200;
+	letter-spacing: -2px;
+	margin-top:-100px;
+}
+#dottedline{
+	text-align: center;
+	border-bottom: thick dotted #EDEDED;
+	box-sizing: border-box;
+}
+
+#header > span {
+	font-size: 30px;
+	color: black;	
+	font-weight: 700;
+    text-transform: uppercase;
+}
+
+sub, sup {
+	font-size: 65%;
+	color: grey; 
+	letter-spacing: 7px;
+	white-space:nowrap;
+}
+
+#b {
+	color: black;
+	font-size: 70%;
+	text-shadow: 0 0 0.5px grey;
+	letter-spacing: -0.5px;
+}
+
+#image{
+	background: url("../img/a.jpg");
+	background-size: cover;
+	height: 150px;
+	width: 150px;
+	position: relative;
+	border-radius: 100%;
+	border:7px solid  #EDEDED ;
+	margin-top: -100px;
+}
+
+.redheader{
+	font-size: 17px;
+	color: black;	
+	opacity: 0.5;
+	color: #993300;
+	text-shadow: 0 0 1px red;
+}
+
+.section{
+	font-size: 13px;
+	color: black;
+	font-weight: 400;
+	padding: 0px 40px 0px 40px;
+}
+
+#icons img{
+	width: 30px;
+	height:30px;
+	float: left;
+	margin-left: -30px;
+ }
+ 
+ #icons div{
+	 text-align: left;
+	 font-family: Consolas;
+	 opacity: 0.7;
+	 font-weight: 600;
+ }
+ 
+#icons sup{
+
+    font-size: 75%;
+	color: grey; 
+	letter-spacing: 1px;
+	white-space:nowrap;
+}
+
+#levels  span {
+	margin-right: 2%;
+	float: right;
+	opacity: 0.5;
+	color:red;
+	font-size: 1.2em;
+	margin-top:3%;
+}
+
+#levels div{
+	font-size: 0.9em;
+	margin: 8px -40px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #EEE;
+	 line-height:40px;
+	padding-left: 20px;
+}
+
+
+table td,tr {
+	padding-left: 20px;
+	padding-top:5px;
+	border: 10px solid white;
+	border-collapse: collapse;
+}
+
+.info {
+	background: #EEE;
+}
+
+table span{
+    color: black;
+	font-size: 1.2em;
+	font-weight: bold;
+	opacity:0.7;
+	letter-spacing:1px;
+}
+  
+
+
+
+
